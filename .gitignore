@@ -16,5 +16,4 @@ external/*
 src.zip
 my-utils/
 !src/models-to-submit/.gitkeep
-test/
 *.cmd
