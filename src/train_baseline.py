@@ -15,9 +15,11 @@ import torch.nn.functional as F
 from sklearn import metrics
 from timeit import default_timer
 import seed
-from sms import send
+# from sms import send
 import config
 # import pdb; pdb.set_trace();
+import warnings
+warnings.filterwarnings("ignore")
 
 
 def parse_arguments():
@@ -107,6 +109,10 @@ def run(args):
 
     # Create dir
     os.makedirs(logdir)
+    # Create necessary directories for saving models
+    os.makedirs(config.TRAIN_MODELS_PATH_PRETRAINED, exist_ok=True)
+    os.makedirs(config.PREDICTIONS_PATH_PRETRAINED, exist_ok=True)
+    os.makedirs(config.MODELS_TO_SUBMIT_PATH_PRETRAINED, exist_ok=True)
 
     MAIN_LOG = os.path.join(logdir, 'mainlog.txt')
 
@@ -257,7 +263,7 @@ LR: {}""".format(
         # Send
         with open(MAIN_LOG) as f:
             text = f.read()
-        send(text)
+        # send(text)
 
         # LEARNING RATE Update?
 
@@ -317,7 +323,7 @@ LR: {}""".format(
 
     with open(MAIN_LOG) as f:
         text = f.read()
-    send(text)
+    # send(text)
 
 
 def train_model(model, train_loader, device, epoch, num_epochs, optimizer, writer, log_file, current_lr, log_every=100):

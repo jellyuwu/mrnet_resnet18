@@ -1,0 +1,415 @@
+MRNET 
+Experiment: 11032025-104052
+TASK: meniscus
+PLANE: sagittal
+Prefix: base
+Model: pretrained-resnet18
+Save Model: 1
+Device: cuda
+Epochs: 100
+Augmentation: albumentations-group
+LR: 1e-05
+Epoch 1:
+Train loss: 0.9241 | Train AUC: 0.5179
+Val Loss: 0.7712 | Val AUC: 0.6162
+Elapsed time: 3.08 min
+Model will be saved
+Epoch 2:
+Train loss: 0.8842 | Train AUC: 0.6065
+Val Loss: 0.8113 | Val AUC: 0.5173
+Elapsed time: 1.25 min
+Epoch 3:
+Train loss: 0.8405 | Train AUC: 0.6881
+Val Loss: 0.8142 | Val AUC: 0.6374
+Elapsed time: 1.32 min
+Model will be saved
+Epoch 4:
+Train loss: 0.8191 | Train AUC: 0.7040
+Val Loss: 0.7721 | Val AUC: 0.6553
+Elapsed time: 1.33 min
+Model will be saved
+Epoch 5:
+Train loss: 0.7757 | Train AUC: 0.7562
+Val Loss: 0.8093 | Val AUC: 0.5826
+Elapsed time: 1.33 min
+Epoch 6:
+Train loss: 0.7087 | Train AUC: 0.8203
+Val Loss: 0.7789 | Val AUC: 0.6242
+Elapsed time: 1.31 min
+Epoch 7:
+Train loss: 0.6756 | Train AUC: 0.8412
+Val Loss: 0.7629 | Val AUC: 0.6256
+Elapsed time: 1.33 min
+Epoch 8:
+Train loss: 0.6440 | Train AUC: 0.8620
+Val Loss: 0.7597 | Val AUC: 0.6290
+Elapsed time: 1.30 min
+Epoch 9:
+Train loss: 0.6312 | Train AUC: 0.8663
+Val Loss: 0.7803 | Val AUC: 0.6109
+Elapsed time: 1.34 min
+Epoch 10:
+Train loss: 0.5920 | Train AUC: 0.8953
+Val Loss: 0.7886 | Val AUC: 0.5854
+Elapsed time: 1.33 min
+Epoch 11:
+Train loss: 0.5814 | Train AUC: 0.8967
+Val Loss: 0.7973 | Val AUC: 0.5950
+Elapsed time: 1.28 min
+Epoch 12:
+Train loss: 0.5959 | Train AUC: 0.8790
+Val Loss: 0.7886 | Val AUC: 0.6069
+Elapsed time: 1.35 min
+Epoch 13:
+Train loss: 0.5445 | Train AUC: 0.9095
+Val Loss: 0.8161 | Val AUC: 0.5894
+Elapsed time: 1.30 min
+Epoch 14:
+Train loss: 0.5248 | Train AUC: 0.9174
+Val Loss: 0.8040 | Val AUC: 0.5928
+Elapsed time: 1.32 min
+Epoch 15:
+Train loss: 0.5295 | Train AUC: 0.9146
+Val Loss: 0.8091 | Val AUC: 0.6346
+Elapsed time: 1.29 min
+Epoch 16:
+Train loss: 0.5062 | Train AUC: 0.9230
+Val Loss: 0.8046 | Val AUC: 0.6100
+Elapsed time: 1.30 min
+Epoch 17:
+Train loss: 0.4979 | Train AUC: 0.9259
+Val Loss: 0.7979 | Val AUC: 0.6165
+Elapsed time: 1.30 min
+Epoch 18:
+Train loss: 0.4963 | Train AUC: 0.9241
+Val Loss: 0.8067 | Val AUC: 0.6029
+Elapsed time: 1.32 min
+Epoch 19:
+Train loss: 0.5009 | Train AUC: 0.9255
+Val Loss: 0.8213 | Val AUC: 0.5964
+Elapsed time: 1.31 min
+Epoch 20:
+Train loss: 0.5060 | Train AUC: 0.9246
+Val Loss: 0.7982 | Val AUC: 0.6425
+Elapsed time: 1.30 min
+Epoch 21:
+Train loss: 0.4917 | Train AUC: 0.9316
+Val Loss: 0.7979 | Val AUC: 0.6222
+Elapsed time: 1.28 min
+Epoch 22:
+Train loss: 0.5100 | Train AUC: 0.9205
+Val Loss: 0.8019 | Val AUC: 0.6244
+Elapsed time: 1.29 min
+Epoch 23:
+Train loss: 0.4930 | Train AUC: 0.9319
+Val Loss: 0.7999 | Val AUC: 0.6202
+Elapsed time: 1.33 min
+Epoch 24:
+Train loss: 0.4982 | Train AUC: 0.9263
+Val Loss: 0.8059 | Val AUC: 0.6066
+Elapsed time: 1.32 min
+Epoch 25:
+Train loss: 0.4921 | Train AUC: 0.9330
+Val Loss: 0.7971 | Val AUC: 0.6403
+Elapsed time: 1.31 min
+Epoch 26:
+Train loss: 0.4933 | Train AUC: 0.9330
+Val Loss: 0.8092 | Val AUC: 0.6100
+Elapsed time: 1.34 min
+Epoch 27:
+Train loss: 0.4794 | Train AUC: 0.9326
+Val Loss: 0.8133 | Val AUC: 0.6126
+Elapsed time: 1.31 min
+Epoch 28:
+Train loss: 0.5104 | Train AUC: 0.9228
+Val Loss: 0.7962 | Val AUC: 0.6109
+Elapsed time: 1.32 min
+Epoch 29:
+Train loss: 0.4859 | Train AUC: 0.9329
+Val Loss: 0.7998 | Val AUC: 0.6389
+Elapsed time: 1.31 min
+Epoch 30:
+Train loss: 0.4760 | Train AUC: 0.9364
+Val Loss: 0.8144 | Val AUC: 0.6468
+Elapsed time: 1.34 min
+Epoch 31:
+Train loss: 0.4990 | Train AUC: 0.9240
+Val Loss: 0.8089 | Val AUC: 0.6083
+Elapsed time: 1.31 min
+Epoch 32:
+Train loss: 0.5004 | Train AUC: 0.9295
+Val Loss: 0.8175 | Val AUC: 0.6168
+Elapsed time: 1.32 min
+Epoch 33:
+Train loss: 0.4737 | Train AUC: 0.9377
+Val Loss: 0.8028 | Val AUC: 0.6162
+Elapsed time: 1.28 min
+Epoch 34:
+Train loss: 0.5135 | Train AUC: 0.9226
+Val Loss: 0.8114 | Val AUC: 0.6038
+Elapsed time: 1.32 min
+Epoch 35:
+Train loss: 0.4919 | Train AUC: 0.9269
+Val Loss: 0.7853 | Val AUC: 0.6236
+Elapsed time: 1.31 min
+Epoch 36:
+Train loss: 0.4811 | Train AUC: 0.9347
+Val Loss: 0.7879 | Val AUC: 0.6208
+Elapsed time: 1.28 min
+Epoch 37:
+Train loss: 0.4904 | Train AUC: 0.9299
+Val Loss: 0.8144 | Val AUC: 0.5925
+Elapsed time: 1.34 min
+Epoch 38:
+Train loss: 0.4975 | Train AUC: 0.9271
+Val Loss: 0.8035 | Val AUC: 0.6069
+Elapsed time: 1.32 min
+Epoch 39:
+Train loss: 0.4765 | Train AUC: 0.9338
+Val Loss: 0.8078 | Val AUC: 0.6199
+Elapsed time: 1.30 min
+Epoch 40:
+Train loss: 0.4761 | Train AUC: 0.9366
+Val Loss: 0.7971 | Val AUC: 0.6326
+Elapsed time: 1.29 min
+Epoch 41:
+Train loss: 0.4892 | Train AUC: 0.9338
+Val Loss: 0.7998 | Val AUC: 0.6168
+Elapsed time: 1.34 min
+Epoch 42:
+Train loss: 0.4857 | Train AUC: 0.9283
+Val Loss: 0.8258 | Val AUC: 0.6021
+Elapsed time: 1.33 min
+Epoch 43:
+Train loss: 0.4701 | Train AUC: 0.9391
+Val Loss: 0.8345 | Val AUC: 0.5922
+Elapsed time: 1.33 min
+Epoch 44:
+Train loss: 0.4916 | Train AUC: 0.9280
+Val Loss: 0.8236 | Val AUC: 0.6222
+Elapsed time: 1.36 min
+Epoch 45:
+Train loss: 0.4870 | Train AUC: 0.9303
+Val Loss: 0.8082 | Val AUC: 0.5981
+Elapsed time: 1.32 min
+Epoch 46:
+Train loss: 0.4784 | Train AUC: 0.9350
+Val Loss: 0.8178 | Val AUC: 0.5987
+Elapsed time: 1.32 min
+Epoch 47:
+Train loss: 0.4863 | Train AUC: 0.9328
+Val Loss: 0.8196 | Val AUC: 0.6080
+Elapsed time: 1.30 min
+Epoch 48:
+Train loss: 0.5084 | Train AUC: 0.9214
+Val Loss: 0.8181 | Val AUC: 0.5984
+Elapsed time: 1.30 min
+Epoch 49:
+Train loss: 0.4857 | Train AUC: 0.9341
+Val Loss: 0.7915 | Val AUC: 0.6196
+Elapsed time: 1.31 min
+Epoch 50:
+Train loss: 0.4910 | Train AUC: 0.9298
+Val Loss: 0.8120 | Val AUC: 0.6284
+Elapsed time: 1.30 min
+Epoch 51:
+Train loss: 0.5009 | Train AUC: 0.9236
+Val Loss: 0.8120 | Val AUC: 0.6007
+Elapsed time: 1.30 min
+Epoch 52:
+Train loss: 0.4818 | Train AUC: 0.9354
+Val Loss: 0.7946 | Val AUC: 0.6304
+Elapsed time: 1.32 min
+Epoch 53:
+Train loss: 0.4794 | Train AUC: 0.9347
+Val Loss: 0.7951 | Val AUC: 0.6360
+Elapsed time: 1.30 min
+Epoch 54:
+Train loss: 0.4947 | Train AUC: 0.9304
+Val Loss: 0.8114 | Val AUC: 0.6066
+Elapsed time: 1.32 min
+Epoch 55:
+Train loss: 0.5046 | Train AUC: 0.9207
+Val Loss: 0.8051 | Val AUC: 0.6165
+Elapsed time: 1.31 min
+Epoch 56:
+Train loss: 0.4799 | Train AUC: 0.9376
+Val Loss: 0.8000 | Val AUC: 0.6103
+Elapsed time: 1.32 min
+Epoch 57:
+Train loss: 0.4942 | Train AUC: 0.9290
+Val Loss: 0.8229 | Val AUC: 0.5936
+Elapsed time: 1.30 min
+Epoch 58:
+Train loss: 0.4915 | Train AUC: 0.9320
+Val Loss: 0.8071 | Val AUC: 0.6188
+Elapsed time: 1.34 min
+Epoch 59:
+Train loss: 0.5173 | Train AUC: 0.9177
+Val Loss: 0.8023 | Val AUC: 0.6083
+Elapsed time: 1.33 min
+Epoch 60:
+Train loss: 0.4873 | Train AUC: 0.9315
+Val Loss: 0.8140 | Val AUC: 0.6044
+Elapsed time: 1.28 min
+Epoch 61:
+Train loss: 0.4908 | Train AUC: 0.9304
+Val Loss: 0.8091 | Val AUC: 0.6010
+Elapsed time: 1.32 min
+Epoch 62:
+Train loss: 0.4817 | Train AUC: 0.9395
+Val Loss: 0.8009 | Val AUC: 0.6233
+Elapsed time: 1.29 min
+Epoch 63:
+Train loss: 0.4944 | Train AUC: 0.9309
+Val Loss: 0.8166 | Val AUC: 0.6191
+Elapsed time: 1.33 min
+Epoch 64:
+Train loss: 0.4932 | Train AUC: 0.9276
+Val Loss: 0.8267 | Val AUC: 0.5987
+Elapsed time: 1.32 min
+Epoch 65:
+Train loss: 0.4942 | Train AUC: 0.9258
+Val Loss: 0.8086 | Val AUC: 0.6343
+Elapsed time: 1.31 min
+Epoch 66:
+Train loss: 0.4986 | Train AUC: 0.9285
+Val Loss: 0.8019 | Val AUC: 0.6205
+Elapsed time: 1.33 min
+Epoch 67:
+Train loss: 0.4752 | Train AUC: 0.9389
+Val Loss: 0.8118 | Val AUC: 0.6281
+Elapsed time: 1.29 min
+Epoch 68:
+Train loss: 0.4855 | Train AUC: 0.9310
+Val Loss: 0.8169 | Val AUC: 0.5950
+Elapsed time: 1.33 min
+Epoch 69:
+Train loss: 0.4766 | Train AUC: 0.9340
+Val Loss: 0.8200 | Val AUC: 0.6049
+Elapsed time: 1.31 min
+Epoch 70:
+Train loss: 0.4959 | Train AUC: 0.9275
+Val Loss: 0.8284 | Val AUC: 0.6111
+Elapsed time: 1.30 min
+Epoch 71:
+Train loss: 0.4755 | Train AUC: 0.9404
+Val Loss: 0.7936 | Val AUC: 0.6270
+Elapsed time: 1.27 min
+Epoch 72:
+Train loss: 0.4718 | Train AUC: 0.9412
+Val Loss: 0.8051 | Val AUC: 0.6077
+Elapsed time: 1.29 min
+Epoch 73:
+Train loss: 0.4798 | Train AUC: 0.9356
+Val Loss: 0.7903 | Val AUC: 0.6406
+Elapsed time: 1.32 min
+Epoch 74:
+Train loss: 0.4955 | Train AUC: 0.9269
+Val Loss: 0.8099 | Val AUC: 0.6029
+Elapsed time: 1.31 min
+Epoch 75:
+Train loss: 0.4846 | Train AUC: 0.9334
+Val Loss: 0.7949 | Val AUC: 0.6267
+Elapsed time: 1.32 min
+Epoch 76:
+Train loss: 0.5019 | Train AUC: 0.9227
+Val Loss: 0.8019 | Val AUC: 0.6148
+Elapsed time: 1.32 min
+Epoch 77:
+Train loss: 0.4955 | Train AUC: 0.9257
+Val Loss: 0.8185 | Val AUC: 0.6134
+Elapsed time: 1.31 min
+Epoch 78:
+Train loss: 0.4925 | Train AUC: 0.9286
+Val Loss: 0.8117 | Val AUC: 0.6092
+Elapsed time: 1.32 min
+Epoch 79:
+Train loss: 0.4973 | Train AUC: 0.9278
+Val Loss: 0.8018 | Val AUC: 0.6307
+Elapsed time: 1.27 min
+Epoch 80:
+Train loss: 0.4834 | Train AUC: 0.9323
+Val Loss: 0.8152 | Val AUC: 0.6049
+Elapsed time: 1.31 min
+Epoch 81:
+Train loss: 0.4907 | Train AUC: 0.9327
+Val Loss: 0.7930 | Val AUC: 0.6425
+Elapsed time: 1.33 min
+Epoch 82:
+Train loss: 0.4912 | Train AUC: 0.9307
+Val Loss: 0.7976 | Val AUC: 0.6143
+Elapsed time: 1.30 min
+Epoch 83:
+Train loss: 0.4988 | Train AUC: 0.9267
+Val Loss: 0.8022 | Val AUC: 0.6148
+Elapsed time: 1.30 min
+Epoch 84:
+Train loss: 0.4990 | Train AUC: 0.9273
+Val Loss: 0.7892 | Val AUC: 0.6114
+Elapsed time: 1.32 min
+Epoch 85:
+Train loss: 0.4803 | Train AUC: 0.9329
+Val Loss: 0.8063 | Val AUC: 0.6117
+Elapsed time: 1.29 min
+Epoch 86:
+Train loss: 0.4872 | Train AUC: 0.9336
+Val Loss: 0.8194 | Val AUC: 0.6106
+Elapsed time: 1.26 min
+Epoch 87:
+Train loss: 0.5002 | Train AUC: 0.9327
+Val Loss: 0.7942 | Val AUC: 0.6230
+Elapsed time: 1.32 min
+Epoch 88:
+Train loss: 0.4709 | Train AUC: 0.9407
+Val Loss: 0.8139 | Val AUC: 0.6137
+Elapsed time: 1.33 min
+Epoch 89:
+Train loss: 0.5058 | Train AUC: 0.9227
+Val Loss: 0.8026 | Val AUC: 0.6134
+Elapsed time: 1.31 min
+Epoch 90:
+Train loss: 0.4847 | Train AUC: 0.9301
+Val Loss: 0.8241 | Val AUC: 0.6024
+Elapsed time: 1.31 min
+Epoch 91:
+Train loss: 0.4937 | Train AUC: 0.9295
+Val Loss: 0.7914 | Val AUC: 0.6182
+Elapsed time: 1.31 min
+Epoch 92:
+Train loss: 0.5018 | Train AUC: 0.9270
+Val Loss: 0.8035 | Val AUC: 0.6281
+Elapsed time: 1.32 min
+Epoch 93:
+Train loss: 0.4980 | Train AUC: 0.9285
+Val Loss: 0.8037 | Val AUC: 0.6160
+Elapsed time: 1.31 min
+Epoch 94:
+Train loss: 0.4805 | Train AUC: 0.9360
+Val Loss: 0.7970 | Val AUC: 0.6137
+Elapsed time: 1.31 min
+Epoch 95:
+Train loss: 0.4853 | Train AUC: 0.9331
+Val Loss: 0.7928 | Val AUC: 0.6301
+Elapsed time: 1.33 min
+Epoch 96:
+Train loss: 0.5018 | Train AUC: 0.9247
+Val Loss: 0.8214 | Val AUC: 0.5911
+Elapsed time: 1.30 min
+Epoch 97:
+Train loss: 0.4904 | Train AUC: 0.9292
+Val Loss: 0.8015 | Val AUC: 0.6205
+Elapsed time: 1.34 min
+Epoch 98:
+Train loss: 0.4745 | Train AUC: 0.9350
+Val Loss: 0.8137 | Val AUC: 0.6193
+Elapsed time: 1.34 min
+Epoch 99:
+Train loss: 0.4940 | Train AUC: 0.9295
+Val Loss: 0.8047 | Val AUC: 0.6035
+Elapsed time: 1.30 min
+Epoch 100:
+Train loss: 0.5062 | Train AUC: 0.9210
+Val Loss: 0.8081 | Val AUC: 0.6137
+Elapsed time: 1.31 min
+[INFO] Execution duration: 133.00 minutes 7.63 seconds

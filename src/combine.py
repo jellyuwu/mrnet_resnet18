@@ -20,7 +20,9 @@ import pandas as pd
 import shutil
 # https://github.com/aleju/imgaug/issues/537
 import numpy
-numpy.random.bit_generator = numpy.random._bit_generator
+numpy.random.bit_generator = numpy.random.bit_generator
+import warnings
+warnings.filterwarnings("ignore")
 
 
 def parse_arguments():
@@ -169,7 +171,7 @@ def run(args):
         _statement = 'Model for "{}": {}'.format(key, value)
         model_statements +=  _statement + '\n'
 
-    # Save model
+    # Save modeli
 
     clf_model_name = 'clf_{}_val_auc_{:.4f}.joblib'.format(task, auc)
     clf_model_path = '{}/{}'.format(config.TRAIN_MODELS_PATH_APPROACH, clf_model_name)
@@ -177,7 +179,7 @@ def run(args):
     print('[COMBINE] Model "{}" saved'.format(clf_model_path))
     import shutil
     print('Copying model...!')
-    destination = os.path.join(model_to_submit_path, clf_model_name)
+    destination = os.path.join(config.MODELS_TO_SUBMIT_PATH, clf_model_name)
     shutil.copyfile(clf_model_path, destination)
 
     ## END
@@ -189,8 +191,8 @@ def run(args):
 
     ## SEND TEXT
 
-    _statement = auc_statement + '\n' + model_statements + exec_statement
-    send(_statement)
+    # _statement = auc_statement + '\n' + model_statements + exec_statement
+    # send(_statement)
 
 
 def extract_predictions(task, plane, cut, model_data, train_val_test, shuffle=False, device='cpu'):

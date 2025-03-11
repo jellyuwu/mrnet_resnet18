@@ -8,8 +8,6 @@
 pictures/*
 MRNet-v1.0/*
 !MRNet-v1.0/.gitkeep
-logs/
-logs/*
 !logs/.gitkeep
 models/*
 !models/.gitkeep
@@ -17,6 +15,6 @@ external/*
 !external/.gitkeep
 src.zip
 my-utils/
-my-data/
-src/models-to-submit/*
 !src/models-to-submit/.gitkeep
+test/
+*.cmd

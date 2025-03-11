@@ -11,7 +11,7 @@ from models import choose
 from joblib import load
 # https://github.com/aleju/imgaug/issues/537
 import numpy
-numpy.random.bit_generator = numpy.random._bit_generator
+numpy.random.bit_generator = numpy.random.bit_generator
 
 
 def parse_arguments():
@@ -21,7 +21,7 @@ def parse_arguments():
     
     # input-data-csv-filename that contains lines in the following format:
     # MRNet-v1.0/{valid,test}/{axial,coronal,sagittal}/{4-digit id}.npy
-    parser.add_argument('-i', '--input', type=str, default='valid-paths.csv')
+    parser.add_argument('-i', '--input', type=str, default='MRNet-v1.0/valid-paths.csv')
     
     # output-prediction-csv-path
     parser.add_argument('-o', '--output', type=str, default='predictions.csv')

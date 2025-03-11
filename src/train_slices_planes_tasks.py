@@ -24,7 +24,7 @@ import config
 
 # https://github.com/aleju/imgaug/issues/537
 import numpy
-numpy.random.bit_generator = numpy.random._bit_generator
+numpy.random.bit_generator = numpy.random.bit_generator
 
 # HYPERPARAMETERS
 
