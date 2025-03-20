@@ -6,7 +6,7 @@ import os
 from tqdm import tqdm
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, confusion_matrix, accuracy_score
 import seed
 import config
 from joblib import dump
@@ -164,6 +164,20 @@ def run(args):
     auc = roc_auc_score(y_val, y_pred)
     auc_statement = '[COMBINE] ## Val AUC for task "{}" is: {:.4f} ##'.format(task, auc)
     print(auc_statement)
+
+    # Calculate confusion matrix
+    y_pred_binary = (y_pred > 0.5).astype(int)
+    tn, fp, fn, tp = confusion_matrix(y_val, y_pred_binary).ravel()
+
+    # Calculate sensitivity (recall), specificity, and accuracy
+    sensitivity = tp / (tp + fn)
+    specificity = tn / (tn + fp)
+    accuracy = accuracy_score(y_val, y_pred_binary)
+
+    # Print metrics
+    print('[COMBINE] ## Val Sensitivity for task "{}" is: {:.4f} ##'.format(task, sensitivity))
+    print('[COMBINE] ## Val Specificity for task "{}" is: {:.4f} ##'.format(task, specificity))
+    print('[COMBINE] ## Val Accuracy for task "{}" is: {:.4f} ##'.format(task, accuracy))
 
     # Print models' details
     model_statements = ''
